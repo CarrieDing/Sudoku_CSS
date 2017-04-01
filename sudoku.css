@@ -1,0 +1,39 @@
+/*设置最大最小高度和宽度就能保证随着屏幕的大小变化我们的div不会乱了布局*/
+.wrap{
+    /*vm兼容IE9*/
+    width: 100vm;
+    height: 100vm;
+
+    width: 100vmin;
+    height: 100vmin;
+    /*0 refer to margin-top and margin-bottom;auto refer to margin-left and margin-right自适应相同宽度，即居中*/
+    margin:0 auto;
+    /*top right bottom left是绝对位置，必须与absolute共用才能生效*/
+    position:absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.div-linefeed{
+    width: 100%;
+}
+
+.box-style{
+    float: left;
+    /*padding-botton设置与width一样的比例保证盒子是正方形的，因为宽度继承了父亲的宽度*/
+    width:31.33%;
+    padding-bottom: 31.33%;
+    margin: 1% 1% 1% 1%;
+    background-color: #ffa600;
+    border-radius: 15px;/*设置圆角*/
+}
+
+
+
+
+
+
+
+
