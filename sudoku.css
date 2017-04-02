@@ -15,17 +15,12 @@
     right: 0;
     bottom: 0;
 }
-
-.div-linefeed{
-    width: 100%;
-}
-
 .box-style{
     float: left;
     /*padding-botton设置与width一样的比例保证盒子是正方形的，因为宽度继承了父亲的宽度*/
     width:31.33%;
     padding-bottom: 31.33%;
-    margin: 1% 1% 1% 1%;
+    margin:1%;
     background-color: #ffa600;
     border-radius: 15px;/*设置圆角*/
 }
